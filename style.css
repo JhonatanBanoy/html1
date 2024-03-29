@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    }
+    
+    .Contenedor1{
+    border: solid black 3px;
+    position: relative;
+    padding: 10px 15px;
+    width: 400px;
+    float: left;
+    background-color: rgb(183, 183, 183);
+    }
+    
+    .Contenedor1 p{
+    padding-top: 16px;
+    }
+    
+    .Contenedor2{
+    border: solid black 3px;
+    position: relative;
+    padding: 10px 15px;
+    width: 400px;
+    float: left; 
+    background-color: rgb(183, 183, 183);
+    }
+    
+    .Contenedor2 p{
+    padding-top: 16px;
+    }
+    
+    .Contenedor3{
+    border: solid black 3px;
+    position: relative;
+    padding: 10px 15px;
+    width: 400px;
+    float: left;   
+    background-color: rgb(183, 183, 183);
+    }
+    
+    .Contenedor3 p{
+    padding-top: 16px;
+    }
+    
+    .Contenedor1 .a{
+    border: solid black 3px;    
+    position: absolute;
+    padding: 5px 12px;
+    top: 0px;
+    left: 350px;
+    background-color: deepskyblue;
+    }
+    
+    .Contenedor2 .e{
+    border: solid black 3px;    
+    position: absolute;
+    padding: 5px 20px;
+    top: 0px;
+    left: 356px;
+    background-color: cornflowerblue;
+    }
+    
+    .Contenedor3 .i{
+    border: solid black 3px;    
+    position: absolute;
+    padding: 5px 20px;
+    top: 0px;
+    left: 350px;
+    background-color: cyan;
+    }
+    
+    .p{
+    text-align: center;
+    display: block;
+    }
+    
+    .Centrar>div{
+    margin: 5px;
+    }
+    
+    .Centrar{
+    left: 20px;
+    position: relative;
+    height: 550px;
+    width: 1400px;
+    }
+    
+    @media (min-width:768px) and (max-width: 991px){
+    .Contenedor3{
+    clear: left;
+    width: 840px;
+    } 
+    
+    .Contenedor3 .i{
+    left: 790px;
+    }
+    
+    .Centrar{
+    width: 900px
+    
+    }  
+    
+    }
+    
+    @media (max-width: 767px){
+    .Contenedor2{
+    clear: left;
+    }
+    .Contenedor3{
+    clear: left;
+    }
+    .Centrar{
+    width: 473px;
+    }
+    
+    }
+    
+    
